@@ -6,7 +6,3 @@ function dropdown() {
     sidebar.classList.toggle("dropdown");
 }
 // there is written dropdown function(is used a toggle method)
-
-$(function() {
-    var tagP = $('div').text('ahahahah');
-});
