@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortdox_church</title>
+    <link rel="stylesheet" href="C:/Users/37124/Desktop/aoaoaoa/gallery.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg></script>
+    <script src="C:/Users/37124/Desktop/aoaoaoa/dropdown.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <ul class="menu">
+                <li class="hoverable">
+                    <a href="C:/Users/37124/Desktop/aoaoaoa/Home/index.html">
+                        <i class="fas fa-church"></i>
+                        <div class="name">Home</div>
+                    </a>
+                </li>
+                <li class="hoverable">
+                    <a href="C:/Users/37124/Desktop/aoaoaoa/Form/donation.html">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <div class="name">Donations</div>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="dropdown()">
+                        <i class="fas fa-images"></i>
+                        <div class="name">Gallery</div>
+                    </a>
+                    <ul class="menu submenu">
+                        <li class="hoverable">
+                            <a href="C:/Users/37124/Desktop/aoaoaoa/Retrophoto/Retrophoto.html">
+                                <i class="fas fa-camera-retro"></i>
+                                <div class="name">Old photos</div>
+                            </a>
+                        </li>
+                        <li class="hoverable">
+                            <a href="C:/Users/37124/Desktop/aoaoaoa/Newphoto/Newphoto.html">
+                                <i class="fas fa-camera"></i>
+                                <div class="name">New photos</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hoverable">
+                    <a href="C:/Users/37124/Desktop/aoaoaoa/Contact/contact.html">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <div class="name">Contact</div>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="social_media">
+                <a href="https://www.facebook.com/pg/JelgavasPareizticigoKatedrale/posts/"><i class="fas fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/c/СоборсвпрСимеонаиАнны/featured"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fas fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <!--Choose image to open that-->
+        <div class="main_content">
+            <div class="header"> New photos</div>
+            <div class="full-img" id="fullImgBox">
+                <img src="k1.jpg" id="fullImg" />
+                <span onclick="closeFullImg();">X</span>
+            </div>
+            <!--Creating gallery-->
+            <div class="img-gallery">
+                <img src="n1.jpeg" onclick="openFullImg(this.src)" />
+                <img src="n2.jpeg" onclick="openFullImg(this.src)" />
+                <img src="n6.jpeg" onclick="openFullImg(this.src)" />
+                <img src="n4.jpeg" onclick="openFullImg(this.src)" />
+                <img src="n5.jpeg" onclick="openFullImg(this.src)" />
+                <img src="n8.jpg" onclick="openFullImg(this.src)" />
+                <img src="n7.jpeg" onclick="openFullImg(this.src)" />
+                <img src="n3.jpeg" onclick="openFullImg(this.src)" />
+                <img src="n10.jpg" onclick="openFullImg(this.src)" />
+            </div>
+        </div>
+    </div>
+</body>
+<script src="C:\Users\37124\Desktop\aoaoaoa\gallery.js"></script>
+
+</html>

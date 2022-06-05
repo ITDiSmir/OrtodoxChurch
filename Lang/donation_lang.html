@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortdox_church</title>
+    <link rel="stylesheet" href="C:/Users/37124/Desktop/aoaoaoa/Form/donation.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg></script>
+    <script src="C:/Users/37124/Desktop/aoaoaoa/dropdown.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <ul class="menu">
+                <li class="hoverable">
+                    <a href="C:/Users/37124/Desktop/aoaoaoa/Lang/index_lang.html">
+                        <i class="fas fa-church"></i>
+                        <div class="fontsize">Majaslapa</div>
+                    </a>
+                </li>
+                <li class="hoverable">
+                    <a href="donation_lang.html">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <div class="fontsize">Ziedojums</div>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="dropdown()">
+                        <i class="fas fa-images"></i>
+                        <div class="fontsize">Galerija</div>
+                    </a>
+                    <ul class="menu submenu">
+                        <li class="hoverable">
+                            <a href="Retrophoto_lang.html">
+                                <i class="fas fa-camera-retro"></i>
+                                <div class="fontsize">Vec. foto</div>
+                            </a>
+                        </li>
+                        <li class="hoverable">
+                            <a href="Newphoto_lang.html">
+                                <i class="fas fa-camera"></i>
+                                <div class="fontsize">Jaun. foto</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hoverable">
+                    <a href="C:/Users/37124/Desktop/aoaoaoa/Lang/Contact_lang.html">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <div class="fontsize">Kontakti</div>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="social_media">
+                <a href="https://www.facebook.com/pg/JelgavasPareizticigoKatedrale/posts/"><i class="fas fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/c/СоборсвпрСимеонаиАнны/featured"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fas fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="info">
+                <h3 id="h3">Ziedojums</h3>
+                <form method="POST">
+                    <h4>Konts</h4>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <input type="text" placeholder="Vārds Uzvārds" required class="name">
+                            <i class="fa fa-user icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <input type="email" placeholder="E-pasts" required class="name">
+                            <i class="fa fa-envelope icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <input type="phone" placeholder="Tālrunis" required class="name">
+                            <i class="fa fa-phone icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <h4>Ziedojuma Tipi</h4>
+                            <input type="radio" id="pt1" name="dontype" checked class="radio">
+                            <label for="dontype">Ziedojums</label>
+                            <input type="radio" id="pt2" name="dontype" checked class="radio">
+                            <label for="dontype">Veselībai</label>
+                            <input type="radio" id="pt3" name="dontype" checked class="radio">
+                            <label for="dontype">Tuvinieku atdusai</label>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <h4>Payment Details</h4>
+                            <input type="radio" id="p1" name="pay" checked class="radio">
+                            <label for="p1"><span><i class="fa fab fa-cc-visa"></i> Credit Card</span></label>
+                            <input type="radio" id="p2" name="pay" checked class="radio">
+                            <label for="p2"><span><i class="fa fab fa-cc-paypal"></i> Paypal</span></label>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <input type="tel" placeholder="Karte" required class="name">
+                            <i class="fa fa-credit-card icon"></i>
+                        </div>
+                        <div class="input-box">
+                            <input type="tel" placeholder="CVC" required class="name">
+                            <i class="fa fa-user icon"></i>
+                        </div>
+                        <div class="input-box">
+                            <select>
+                                <option>01 jan</option>
+                                <option>02 jan</option> 
+                                <option>03 jan</option>                             
+                            </select>
+                            <select>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <button type="submit">ZIEDOT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

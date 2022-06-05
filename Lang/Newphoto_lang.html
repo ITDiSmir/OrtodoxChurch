@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortdox_church</title>
+    <link rel="stylesheet" href="C:/Users/37124/Desktop/aoaoaoa/gallery.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg></script>
+    <script src="C:/Users/37124/Desktop/aoaoaoa/dropdown.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Menu</h2>
+            <ul class="menu">
+                <li class="hoverable">
+                    <a href="C:/Users/37124/Desktop/aoaoaoa/Lang/index_lang.html">
+                        <i class="fas fa-church"></i>
+                        <div class="name">Majaslapa</div>
+                    </a>
+                </li>
+                <li class="hoverable">
+                    <a href="donation_lang.html">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <div class="name">Ziedojums</div>
+                    </a>
+                </li>
+                <li>
+                    <a onclick="dropdown()">
+                        <i class="fas fa-images"></i>
+                        <div class="name">Galerija</div>
+                    </a>
+                    <ul class="menu submenu">
+                        <li class="hoverable">
+                            <a href="Retrophoto_lang.html">
+                                <i class="fas fa-camera-retro"></i>
+                                <div class="name">Vec. fotografijas</div>
+                            </a>
+                        </li>
+                        <li class="hoverable">
+                            <a href="Newphoto_lang.html">
+                                <i class="fas fa-camera"></i>
+                                <div class="name">Jaun. fotografijas</div>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hoverable">
+                    <a href="C:/Users/37124/Desktop/aoaoaoa/Lang/Contact_lang.html">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <div class="name">Kontakti</div>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="social_media">
+                <a href="https://www.facebook.com/pg/JelgavasPareizticigoKatedrale/posts/"><i class="fas fab fa-facebook-f"></i></a>
+                <a href="https://www.youtube.com/c/СоборсвпрСимеонаиАнны/featured"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fas fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="header"> Jaunās fotogrāfijas</div>
+            <div class="full-img" id="fullImgBox">
+                <img src="k1.jpg" id="fullImg" />
+                <span onclick="closeFullImg();">X</span>
+            </div>
+            <div class="img-gallery">
+                <img src="C:/Users/37124/Desktop/aoaoaoa/Newphoto/n1.jpeg" onclick="openFullImg(this.src)" />
+                <img src="C:/Users/37124/Desktop/aoaoaoa/Newphoto/n2.jpeg" onclick="openFullImg(this.src)" />
+                <img src="C:/Users/37124/Desktop/aoaoaoa/Newphoto/n6.jpeg" onclick="openFullImg(this.src)" />
+                <img src="C:/Users/37124/Desktop/aoaoaoa/Newphoto/n4.jpeg" onclick="openFullImg(this.src)" />
+                <img src="C:/Users/37124/Desktop/aoaoaoa/Newphoto/n5.jpeg" onclick="openFullImg(this.src)" />
+                <img src="C:/Users/37124/Desktop/aoaoaoa/Newphoto/n8.jpg" onclick="openFullImg(this.src)" />
+                <img src="C:/Users/37124/Desktop/aoaoaoa/Newphoto/n7.jpeg" onclick="openFullImg(this.src)" />
+                <img src="C:/Users/37124/Desktop/aoaoaoa/Newphoto/n3.jpeg" onclick="openFullImg(this.src)" />
+                <img src="C:/Users/37124/Desktop/aoaoaoa/Newphoto/n10.jpg" onclick="openFullImg(this.src)" />
+            </div>
+        </div>
+    </div>
+</body>
+<script src="C:\Users\37124\Desktop\aoaoaoa\gallery.js"></script>
+
+</html>
